@@ -2,7 +2,6 @@ title: Hack Overflow
 markdown: kramdown
 url: "http://hackoverflow.org"
 baseurl: "/home"
-remote_theme: lmckane/HackOverflow
 
 # for atom feed
 author:
