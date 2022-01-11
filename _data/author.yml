@@ -12,12 +12,14 @@ description: "
 email: dev_sharad@outlook.com
 contact:
   - title: linkedin
-    url: https://www.linkedin.com/in/srsmaurya
-  - title: github
-    url: https://github.com/sharadcodes
+    url: https://www.linkedin.com/company/hackoverflow-gmu/
+  #- title: github
+  #  url: https://github.com/sharadcodes
   - title: twitter
-    url: https://twitter.com/sharadcodes
-  - title: dev
-    url: https://dev.to/sharadcodes
+    url: https://twitter.com/HackoverflowGMU
+  - title: instagram
+    url: https://www.instagram.com/hackoverflowgmu/
+  #- title: dev
+  #  url: https://dev.to/sharadcodes
   - title: email
-    url: mailto:dev_sharad@outlook.com
+    url: mailto:team@hackoverflow.org
