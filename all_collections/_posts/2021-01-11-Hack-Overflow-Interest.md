@@ -15,5 +15,5 @@ Please fill out [this](https://docs.google.com/forms/d/e/1FAIpQLSdijXhPpoAQ18Dh3
 
 We are ever so excited to have you on board! 
 
-Best,
+Best,<br>
 HackOverflow Organizing Team
