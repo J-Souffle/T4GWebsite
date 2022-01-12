@@ -6,7 +6,7 @@ description: "
   </p>
   <br/>
   <p>
-    Follow us on social media!
+    Connect with us on social media!
   </P>
 "
 email: team@hackoverflow.org
@@ -19,6 +19,8 @@ contact:
     url: https://twitter.com/HackoverflowGMU
   - title: instagram
     url: https://www.instagram.com/hackoverflowgmu/
+  - title: discord
+    url: https://discord.gg/dk6VHnMfKz
   #- title: dev
   #  url: https://dev.to/sharadcodes
   - title: email
