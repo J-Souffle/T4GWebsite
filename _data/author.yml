@@ -1,5 +1,5 @@
 name: GMU HackOverflow
-dp: 
+dp:
 description: "
   <p>
     Welcome to Hack Overflow.
@@ -9,7 +9,7 @@ description: "
     Follow us on social media!
   </P>
 "
-email: dev_sharad@outlook.com
+email: team@hackoverflow.org
 contact:
   - title: linkedin
     url: https://www.linkedin.com/company/hackoverflow-gmu/
