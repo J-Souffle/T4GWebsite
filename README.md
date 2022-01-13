@@ -1,42 +1,27 @@
-# Jekyll Theme Serial Programmer
+# Hack Overflow Website
 
-> A Jekyll theme for serial programmers (-.-)
+Jekyll based site hosted on github, domain through GoDaddy.
 
-[Live Demo](https://sharadcodes.github.io/jekyll-theme-serial-programmer/)
+[Live Link](https://hackoverflow.org)
 
-## How to install
+## Installing Jekyll
+
+This step is only required if you intend to make changes and run the site locally
+follow the steps [Here](https://jekyllrb.com/docs/) according to your operating system
+
+## How to install and run on local machine
 
 1. Download or clone the repo
-   `git clone https://github.com/sharadcodes/jekyll-theme-serial-programmer.git`
+   `git clone or open with Github desktop'
 2. Enter the folder
-   `cd jekyll-theme-serial-programmer`
+   `cd HackOverflow`
 3. Run
    `bundle install`
 4. Start Jekyll server
    `bundle exec jekyll serve`
 5. Access via
    - localhost or according to your pc configurations.
-6. Change the `_config.yml` & `_data/author.yml` files as you like.
-7. Upload the files on your repository and :sunglasses: enjoy.
+6. Make any appropriate changes as you see fit
+7. Commit and push changes (preferably a pull request) to the repository
 
-## Alert!
-
-Don't touch `categories.js` inside `assets/js` folder unless you know what you're doing, it is used for generating links for the particular category pill you click on.
-
-# Screenshots
-
-## PC BLOG PAGE
-
-![Blog page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/pc_blog.png)
-
-## PC POST EXAMPLE
-
-![Post page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/pc_post.png)
-
-## PHONE BLOG PAGE
-
-![Blog page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/mobile_blog.png)
-
-## PHONE POST EXAMPLE
-
-![Post page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/mobile_post.png)
+## File Structure
