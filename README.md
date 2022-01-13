@@ -22,6 +22,6 @@ follow the steps [Here](https://jekyllrb.com/docs/) according to your operating 
 5. Access via
    - localhost or according to your pc configurations.
 6. Make any appropriate changes as you see fit
-7. Commit and push changes (preferably a pull request) to the repository
+7. Commit and push changes (preferably a new branch) to the repository
 
 ## File Structure
