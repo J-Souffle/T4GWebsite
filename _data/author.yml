@@ -19,9 +19,9 @@ contact:
     url: https://twitter.com/HackoverflowGMU
   - title: instagram
     url: https://www.instagram.com/hackoverflowgmu/
-  - title: discord
-    url: https://discord.gg/dk6VHnMfKz
   - title: dev
-    url: https://dev.to/sharadcodes
+    url: https://discord.gg/dk6VHnMfKz
+  #- title: dev
+  #  url: https://dev.to/sharadcodes
   - title: email
     url: mailto:team@hackoverflow.org
