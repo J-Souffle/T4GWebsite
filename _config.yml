@@ -13,11 +13,13 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
+# collections
 collections_dir: all_collections
 collections:
   posts:
     output: true
 
+# page path
 defaults:
   - scope:
       path: "_posts"
