@@ -5,7 +5,7 @@
 - [ ] FAQ
 - [ ] Registration
 - [ ] Sponsor Us
-- [ ] Board committees and pcitures
+- [ ] Board committees and pictures
 
 # Hack Overflow Website
 
