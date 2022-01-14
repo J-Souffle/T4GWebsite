@@ -1,3 +1,12 @@
+# To-Do
+- [x] About
+- [x] social media links
+- [ ] Schedule
+- [ ] FAQ
+- [ ] Registration
+- [ ] Sponsor Us
+- [ ] Board committees and pcitures
+
 # Hack Overflow Website
 
 Jekyll based site hosted on github, domain through GoDaddy.
