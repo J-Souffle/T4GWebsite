@@ -9,6 +9,7 @@ description: "
     Connect with us on social media!
   </P>
 "
+# Author settings
 email: team@hackoverflow.org
 contact:
   - title: linkedin

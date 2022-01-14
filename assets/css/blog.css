@@ -41,8 +41,28 @@ header .site-title {
 }
 main {
   margin: 0 auto;
-  max-width: 650px;
-  padding: 3rem 0;
+  max-width: 800px;
+  padding: 2rem 0;
+}
+
+/* navigation menu */
+nav ul {
+  text-align: right;
+  padding-top: 3rem;
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+} 
+nav ul li { /*list item */
+  display: inline-block;
+}
+nav ul li a { /*individual menu item styling */
+  padding-left: 30px;
+  text-decoration: none;
+  text-align: center;
+  color: #EEEEEE;
+  font-weight: bold;
+  font-family: "JetBrains Mono", monospace;
 }
 
 /* header */

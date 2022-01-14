@@ -2,6 +2,12 @@
 <html lang="en">
   {% include head.html %}
   <body>
+    <nav>
+      <ul>
+        {% for item in site.data.menu %}
+          <li><a href="{{item.link}}">{{item.title}}</a></li>
+        {% endfor %}
+      </ul>
     <main>
       {% include header.html %} {% include bio.html %}
       {% include about.html %} 
@@ -25,5 +31,6 @@
       {% include footer.html %}
     </main>
     {% include category-modal.html%}
+
   </body>
 </html>
