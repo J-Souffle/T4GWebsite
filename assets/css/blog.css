@@ -54,7 +54,7 @@ nav ul {
   margin: 0 auto;
 } 
 nav ul li { /*list item */
-  display: inline-block;
+  display: inline-flex;
 }
 nav ul li a { /*individual menu item styling */
   padding-left: 15px;
@@ -63,21 +63,24 @@ nav ul li a { /*individual menu item styling */
   text-align: center;
   color: #EEEEEE;
   font-weight: bold;
-  /* background: var(--gray-3);
-  border-radius: 15px; */
   transition: all 0.2s ease-in-out;
 }
 nav ul li a:hover{ /*item the cursor is hovering over*/
-  padding: 1rem;
-  /* background: var(--gray-1);
-  border-radius: 15px; */
-  color: #eeeeeea1;
-  transform: scale(2);  
-  transition: all 0.2s ease-in-out;
+  /* padding: 1rem; */
+  transform: scale(1.1);
+   color: var(--white-2); 
+  /* transition: all 0.2s ease-in-out; */
 }
 .active{ /*current menu page */
   padding: 1rem;
-  background: var(--gray-3);
+  background: var(--white-1);
+  color: var(--gray-3);
+  border-radius: 15px;
+}
+.active:hover{ /*current menu page */
+  padding: 1rem;
+  background: var(--white-1);
+  color: var(--gray-3);
   border-radius: 15px;
 }
 /* header */
