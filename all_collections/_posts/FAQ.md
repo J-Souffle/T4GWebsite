@@ -1,4 +1,0 @@
----
-permalink: /FAQ/
----
-# FAQ page
