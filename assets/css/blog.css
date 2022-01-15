@@ -57,14 +57,29 @@ nav ul li { /*list item */
   display: inline-block;
 }
 nav ul li a { /*individual menu item styling */
-  padding-left: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
   text-decoration: none;
   text-align: center;
   color: #EEEEEE;
   font-weight: bold;
-  font-family: "JetBrains Mono", monospace;
+  /* background: var(--gray-3);
+  border-radius: 15px; */
+  transition: all 0.2s ease-in-out;
 }
-
+nav ul li a:hover{ /*item the cursor is hovering over*/
+  padding: 1rem;
+  /* background: var(--gray-1);
+  border-radius: 15px; */
+  color: #eeeeeea1;
+  transform: scale(2);  
+  transition: all 0.2s ease-in-out;
+}
+.active{ /*current menu page */
+  padding: 1rem;
+  background: var(--gray-3);
+  border-radius: 15px;
+}
 /* header */
 
 #bio {
