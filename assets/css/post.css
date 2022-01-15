@@ -48,6 +48,45 @@ main {
   max-width: 650px;
   padding: 3rem 0 4rem 0;
 }
+/* navigation menu */
+nav ul {
+  text-align: right;
+  padding-top: 3rem;
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+} 
+nav ul li { /*list item */
+  display: inline-flex;
+}
+nav ul li a { /*individual menu item styling */
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+  text-align: center;
+  color: #EEEEEE;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+nav ul li a:hover{ /*item the cursor is hovering over*/
+  /* padding: 1rem; */
+  transform: scale(1.1);
+   color: var(--white-2); 
+  /* transition: all 0.2s ease-in-out; */
+}
+.active{ /*current menu page */
+  /* padding: 1rem; */
+  background: var(--white-1);
+  color: var(--gray-3);
+  border-radius: 15px;
+}
+.active:hover{ /*current menu page */
+  /* padding: 1rem; */
+  background: var(--white-1);
+  color: var(--gray-3);
+  border-radius: 15px;
+}
+
 .article {
   margin-bottom: 3rem;
 }
