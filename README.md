@@ -1,6 +1,7 @@
 # To-Do
 - [x] About
 - [x] social media links
+- [x] Nav Menu
 - [ ] Schedule
 - [ ] FAQ
 - [ ] Registration
