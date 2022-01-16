@@ -2,16 +2,9 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    <nav>
-      <ul>
-        {% for item in site.data.menu %}
-          <li><a class="{% if page.url == item.link %} active{% endif %}
-            "href="{{item.link}}">{{item.title}}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
     <main>
-      {% include header.html %} {% include bio.html %}
+      {% include header.html %}
+      {% include bio.html %}
       {% include about.html %} 
       <section class="articles">
         {% for post in site.posts %}
