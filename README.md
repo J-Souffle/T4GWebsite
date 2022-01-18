@@ -7,6 +7,9 @@
 - [ ] Registration
 - [ ] Sponsor Us
 - [ ] Board committees and pictures
+- [ ] Mobile formatting
+- [ ] staggered content on the main menu
+- [ ] 
 
 # Hack Overflow Website
 
