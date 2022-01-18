@@ -4,12 +4,13 @@
 - [x] Nav Menu
 - [ ] Schedule
 - [ ] FAQ
-- [ ] Registration
+- [ ] Registration (type form)
 - [ ] Sponsor Us
 - [ ] Board committees and pictures
 - [ ] Mobile formatting
 - [ ] staggered content on the main menu
-- [ ] 
+- [ ] subscribe function (mail chimp)
+- [ ] message button
 
 # Hack Overflow Website
 
