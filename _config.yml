@@ -1,10 +1,10 @@
-title: Hack Overflow
+title: HackOverflow
 markdown: kramdown
 url: "http://hackoverflow.org"
 #baseurl: ""
 # for atom feed
 author:
-  name: Hack Overflow
+  name: HackOverflow
   email: help@hackoverflow.org
 
 plugins:

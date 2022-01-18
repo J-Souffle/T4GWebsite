@@ -1,0 +1,16 @@
+# Newsletter Settings
+mailchimp__settings:
+  mailchimp__title: <span class="text-span">Join</span> my mailing list # Add your title
+  mailchimp__text: " 'Get inspiration, updates and', 'cool stuff about design!' " # Add descriptions to the form by wrapping the text in single quotes. If you want to use more than one sentence, be sure to separate them with a comma.
+  mailchimp__identifier: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+  mailchimp__button__text: Subscribe # Add your button text
+
+#-------------------------------
+# Footer Settings
+social:
+- {icon: icons/twitter.png, link: "https://twitter.com"}
+- {icon: "ion-logo-github", link: "https://github.com"}
+- {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
+- {icon: "ion-logo-codepen", link: "https://codepen.io"}
+- {icon: "ion-logo-vimeo", link: "https://vimeo.com"}
+- {icon: "ion-logo-youtube", link: "https://youtube.com"}

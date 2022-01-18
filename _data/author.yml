@@ -2,7 +2,7 @@ name: GMU HackOverflow
 dp: assets/icons/HOF2022.png
 description: "
   <p>
-    Welcome to Hack Overflow.
+    Welcome to HackOverflow.
   </p>
   <br/>
   <p>
@@ -24,5 +24,5 @@ contact:
     url: https://discord.gg/dk6VHnMfKz
   #- title: dev
   #  url: https://dev.to/sharadcodes
-  - title: email
-    url: mailto:team@hackoverflow.org
+  # - title: email
+  #   url: mailto:team@hackoverflow.org
