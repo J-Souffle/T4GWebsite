@@ -33,11 +33,13 @@ body {
 header {
   padding: 2rem 0 2rem 0;
 }
-header .site-title {
-  font-size: 2rem;
-  font-weight: bolder;
-  line-height: normal;
-  color: var(--white-1);
+header .site-logo {
+  /* max-width: 250px; */
+  /* margin-top: 15px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  padding-right: 35px;
+  border-style: none; */
 }
 
 .header-inner{
@@ -46,12 +48,12 @@ header .site-title {
   align-items: center;
   width: 100%;
   /* padding: 40px $base-spacing-unit; */
-  min-height: 80px;
+  min-height: 60px;
+  max-height: 80px;
 }
 
-header .logo{
-  width: 250px;
-  height: 44px;
+header .img-logo{
+  height: 80px;
 }
 
 main {
