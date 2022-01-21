@@ -21,6 +21,7 @@ collections:
   posts:
     output: true
 
+
 # page path
 defaults:
   - scope:
