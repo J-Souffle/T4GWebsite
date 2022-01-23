@@ -2,15 +2,16 @@
 - [x] About
 - [x] social media links
 - [x] Nav Menu
-- [ ] Schedule
-- [ ] FAQ
+- [ ] Schedule - tbd
+- [ ] FAQ -tbd
 - [ ] Registration (type form)
-- [ ] Sponsor Us
-- [ ] Board committees and pictures
+- [ ] Sponsor Us + sponsor packet
+- [ ] Board committees and pictures - tbd
 - [ ] Mobile formatting
 - [ ] staggered content on the main menu
 - [ ] subscribe function (mail chimp)
-- [ ] message button
+- [ ] contact us
+- [x] bring-to-top button
 
 # Hack Overflow Website
 
