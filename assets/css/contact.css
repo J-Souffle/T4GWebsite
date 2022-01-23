@@ -345,7 +345,7 @@ footer .social-wrapper img:hover {
 input[type=text]{
     background-color: var(--white-1);
 }
-textarea[id=subject]{
+textarea[id=subject], [id=message]{
     background-color: var(--white-1);
 }
 
