@@ -9,7 +9,7 @@
 - [ ] Board committees and pictures - tbd
 - [ ] Mobile formatting
 - [ ] staggered content on the main menu
-- [ ] subscribe function (mail chimp)
+- [x] subscribe function (mail chimp)
 - [ ] contact us
 - [x] bring-to-top button
 
