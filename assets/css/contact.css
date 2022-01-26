@@ -367,7 +367,7 @@ input[type=form-text], select, textarea {
 
 
 button[type=submit] {
-    background-color: #0a999a;
+    background-color: #aaa;
     color: white;
     padding: 1rem 2rem;
     border: none;
@@ -378,14 +378,14 @@ button[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 button[type=submit]:hover {
-    /* background-color: #0af1f2; */
-    transform: scale(1.1);
+    background-color: #777;
+    /* transform: scale(1.1); */
 }
 
 /* Add a background color and some padding around the form */
 .container {
     border-radius: 1rem;
-    background-color: #384041;
+    background-color: var(--gray-3);
     padding: 1rem;
 }
 
