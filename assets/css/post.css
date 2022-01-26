@@ -251,6 +251,11 @@ footer .social-wrapper img:hover {
   font-weight: 100;
   border-left: 0.3rem solid var(--white-2);
 }
+
+.content blockquote h4 {
+  color: var(--white-1);
+}
+
 .content strong {
   font-weight: bold;
 }
