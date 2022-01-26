@@ -357,6 +357,7 @@ input[type=form-text], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
+    background-color: var(--white-1);
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
