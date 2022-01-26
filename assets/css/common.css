@@ -62,7 +62,7 @@
   background: var(--gray-4);
 }
 
-#scrollButton {
+/* #scrollButton {
   position: fixed;
   bottom: 20px;
   right: 30px;
@@ -79,4 +79,4 @@
 
 #scrollButton:hover {
   background-color: #555;
-}
+} */

@@ -312,15 +312,22 @@ footer .social-wrapper img:hover {
   border: none;
   outline: none;
   color: white;
-  background-color: #353d3e;
+  background: none;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 10px;
-  font-size: 18px;
+  padding: 10px;
+  /* border-radius: 10px; */
+  font-style: normal;
+  font-weight: bold;
+  font-family: iconmeta;
+  font-size: 30px;
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out;
 }
 
 #scrollButton:hover {
-  background-color: #555;
+  /* background-color: #555; */
+  opacity: 100%;
+  transform: scale(1.2);
 }
 
 /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
