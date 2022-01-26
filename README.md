@@ -3,7 +3,7 @@
 - [x] social media links
 - [x] Nav Menu
 - [ ] Schedule - tbd
-- [ ] FAQ -tbd
+- [x] FAQ
 - [ ] Registration (type form)
 - [ ] Sponsor Us + sponsor packet
 - [ ] Board committees and pictures - tbd
