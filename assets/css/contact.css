@@ -184,18 +184,19 @@ footer .text-class a {
   }
   
   footer .footer-title{
-    text-align: left;
+    text-align: center;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
   
   footer .social-wrapper{
-    text-align: left;
+    text-align: center;
   }
   
 
 footer .copyright{
     text-align: left;
+    padding-top: 3rem;
 }
 
 footer .social-wrapper img {
@@ -352,7 +353,7 @@ textarea[id=subject], [id=message]{
     background-color: var(--white-1);
 }
 
-input[type=text], select, textarea {
+input[type=form-text], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;

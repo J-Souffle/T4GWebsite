@@ -229,17 +229,18 @@ footer .text-class a {
 }
 
 footer .footer-title{
-  text-align: left;
+  text-align: center;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
 footer .social-wrapper{
-  text-align: left;
+  text-align: center;
 }
 
 footer .copyright{
   text-align: left;
+  padding-top: 3rem;
 }
 
 footer .social-wrapper img {
