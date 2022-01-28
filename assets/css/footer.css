@@ -5,73 +5,99 @@ footer .text-class a {
     border-bottom: 1px solid cyan;
   }
   
-  .footer-flex-row{
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-  }
-  
-  .footer-flex-col{
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    padding-right: 1.25rem;
-    padding-left: 1.25rem;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: justify;
-    /* -webkit-justify-content: space-between; */
-    -ms-flex-pack: justify;
-    /* justify-content: space-between; */
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-  }
-  
-  .text-class{
-    font-size: 0.75rem;
-    text-align: left;
-  }
-  
-  footer .footer-title{
-    text-align: center;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    font-weight: bold;
-  }
-  
-  footer .social-wrapper{
-    text-align: center;
-  }
-  
-  footer .copyright{
-    text-align: left;
-    padding-top: 3rem;
-    font-weight: bold;
-  }
-  
-  footer .social-wrapper img {
-    filter: invert() !important;
-    width: 25px;
-    height: 25px;
-    margin: 0 0 0.3rem 0;
-    transition: all 0.2s ease-in-out;
-  }
-  footer .social-wrapper img:hover {
-    transform: scale(1.2);
-  }
+.footer-flex-row{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
 
-  /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
+.footer-flex-col{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  /* -webkit-justify-content: space-between; */
+  -ms-flex-pack: justify;
+  /* justify-content: space-between; */
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+footer .text-class{
+  font-size: 0.75rem;
+  text-align: left;
+}
+
+footer .footer-title{
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+footer .social-wrapper{
+  text-align: center;
+}
+
+footer .copyright{
+  text-align: left;
+  padding-top: 3rem;
+  font-weight: bold;
+}
+
+footer .social-wrapper img {
+  filter: invert() !important;
+  width: 25px;
+  height: 25px;
+  margin: 0 0 0.3rem 0;
+  transition: all 0.2s ease-in-out;
+}
+footer .social-wrapper img:hover {
+  transform: scale(1.2);
+}
+
+#scrollButton {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  color: white;
+  background: none;
+  cursor: pointer;
+  padding: 10px;
+  /* border-radius: 10px; */
+  font-style: normal;
+  font-weight: bold;
+  font-family: iconmeta;
+  font-size: 30px;
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out;
+}
+
+#scrollButton:hover {
+  /* background-color: #555; */
+  opacity: 100%;
+  transform: scale(1.2);
+}
+
+/* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
 #mc_embed_signup form {display:block; position:relative; text-align:left; padding:0px 0 10px 3%}
 #mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
 #mc_embed_signup input {border: 1px solid #ABB0B2; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
@@ -126,5 +152,5 @@ a{color:cyan};
 #mc_embed_signup #num-subscribers span {padding:.5em; border:1px solid #ccc; margin-right:.5em; font-weight:bold;}
 
 #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {display:inline-block; margin:2px 0 1em 0; padding:5px 10px; background-color:rgba(255,255,255,0.85);
-   -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; font-size:14px; font-weight:normal; z-index:1; color:#e85c41;}
+  -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; font-size:14px; font-weight:normal; z-index:1; color:#e85c41;}
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {border:2px solid #e85c41;}
