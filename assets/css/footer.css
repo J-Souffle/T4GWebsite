@@ -1,5 +1,14 @@
 /* footer */
-
+:root {
+  --gray-1: #3f3f3f;
+  --gray-2: #32353a;
+  --gray-3: #25282c;
+  --gray-4: #151618;
+  --gray-5: #151618;
+  --gray-6: #111111;
+  --white-1: #eeeeee;
+  --white-2: #a9abb3;
+}
 footer .text-class a {
     color: cyan;
     border-bottom: 1px solid cyan;
@@ -82,7 +91,7 @@ footer .social-wrapper img:hover {
   background: none;
   cursor: pointer;
   padding: 10px;
-  /* border-radius: 10px; */
+  border-radius: 30px;
   font-style: normal;
   font-weight: bold;
   font-family: iconmeta;
