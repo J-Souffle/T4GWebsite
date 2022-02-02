@@ -2,6 +2,7 @@
 @import url(footer.css); 
 @import url(header.css); 
 @import url(media.css); 
+@import url(animation.css);
 :root {
   --gray-1: #3f3f3f;
   --gray-2: #32353a;
