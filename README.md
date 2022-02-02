@@ -14,6 +14,7 @@
 - [x] subscribe function (mail chimp)
 - [x] contact us
 - [x] bring-to-top button
+- [ ] loading animation
 
 # Hack Overflow Website
 
