@@ -18,9 +18,10 @@ body{
 svg {
     display: block;
     font: 8em 'Montserrat';
-    width: 960px;
+    width: auto;
     height: 300px;
     margin: 0 auto;
+    padding-bottom: 32px;
 }
 
 .text-copy {
