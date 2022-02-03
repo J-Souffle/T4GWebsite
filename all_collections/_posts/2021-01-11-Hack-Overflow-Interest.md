@@ -3,6 +3,7 @@ layout: post
 title:  HackOverflow Interest Form
 date:   2021-11-30 20:42:46 -0500
 categories: ["announcement"]
+permalink: ../Interest-Form/
 ---
 
 HELLO GMU! 
