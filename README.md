@@ -5,7 +5,7 @@
 - [ ] Schedule - tbd
 - [ ] Sponsors
 - [x] FAQ
-- [ ] Registration (type form)
+- [x] Registration (qualitrics) - embedded
 - [x] Sponsor Us + sponsor packet
 - [ ] Board committees and pictures - tbd
 - [x] Mobile formatting
