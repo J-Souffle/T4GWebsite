@@ -59,7 +59,7 @@
     box-shadow: 2.5px 5px;
 }
 
-@media only screen and (max-width:850px) {
+@media only screen and (max-width:1170px) {
     .stacks-1 {
         flex-direction:column;
     }
