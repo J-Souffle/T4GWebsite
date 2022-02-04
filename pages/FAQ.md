@@ -1,6 +1,6 @@
 ---
 title: FAQ
-layout: post
+layout: FAQ
 permalink: ../FAQ/
 ---
 > ### Q: Is HackOverflow only for engineering majors?

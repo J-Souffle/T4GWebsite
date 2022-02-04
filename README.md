@@ -9,8 +9,8 @@
 - [x] Sponsor Us + sponsor packet
 - [ ] Board committees and pictures - tbd
 - [x] Mobile formatting
-- [ ] hamburger style menu for smaller screens
-- [ ] staggered content on the main menu
+- [x] hamburger style menu for smaller screens
+- [x] staggered content on the main menu
 - [x] subscribe function (mail chimp)
 - [x] contact us
 - [x] bring-to-top button
