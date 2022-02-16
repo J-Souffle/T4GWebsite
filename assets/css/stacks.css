@@ -1,45 +1,69 @@
+:root {
+    --gray-1: #3f3f3f;
+    --gray-2: #32353a;
+    --gray-3: #25282c;
+    --gray-4: #151618;
+    --gray-5: #151618;
+    --gray-6: #111111;
+    --white-1: #eeeeee;
+    --white-2: #a9abb3;
+  }
 .stacks-1 {
-    background-color: #226375;
-
-    padding:1rem;
-    border-radius: 15px;
+    /* background-color: #226375; */
+    max-width: 100%;
     display:flex;
     align-items: center;
-    box-shadow: 5px 10px;
+    /* box-shadow: 5px 10px; */
     color:white;
 }
-.stacks-1 div {
+
+.stacks-1 .stack-wrapper{
+    padding-left: 2%;
+}
+.stacks-2 .stack-wrapper{
+    padding-right: 2%;
+}
+
+.stacks-1 .stack-wrapper h1, .stacks-2 .stack-wrapper h1{
+    padding-left:1rem;
+}
+.stacks-1 .stack-wrapper p{
     display: table;
     color:white;
     padding:1rem;
-    margin: 0 auto;
-    font-size: large;
-    background-color: #1f4260;
+    /* margin: 2%; */
+    font-size: 18px;
+    background-color: var(--gray-1);
     border-radius: 15px;
-    box-shadow: 2.5px 5px;
+    /* box-shadow: 2.5px 5px; */
+}
+
+.stacks-1 img, .stacks-2 img{
+    width: 33.33%;
+    border-radius: 5%;
 }
 
 .stacks-2 {
-    background-color: #a0a4aa;
-    padding:1rem;
+    /* background-color: #a0a4aa; */
+    /* padding:1rem; */
     border-radius: 15px;
     display:flex;
     align-items: center;
-    box-shadow: -5px 10px;
+    /* box-shadow: -5px 10px; */
     color:white;
 }
-.stacks-2 div {
+.stacks-2 .stack-wrapper p{
     display: table;
     color:white;
     padding:1rem;
-    margin: 0 auto;
-    font-size: large;
-    background-color: #787c80;
+    /* margin: 2%; */
+    font-size: 18px;
+    background-color: var(--gray-1);
     border-radius: 15px;
-    box-shadow: -2.5px 5px;
+    /* box-shadow: -2.5px 5px; */
 }
 
-.stacks-3 {
+/* .stacks-3 {
     background-color: #0d795a;
     padding:1rem;
     border-radius: 15px;
@@ -57,7 +81,7 @@
     background-color: #17a079;
     border-radius: 15px;
     box-shadow: 2.5px 5px;
-}
+} */
 
 @media only screen and (max-width:1170px) {
     .stacks-1 {

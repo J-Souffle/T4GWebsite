@@ -34,10 +34,10 @@ body {
   line-height: 2rem;
   background-color: var(--gray-5);
 }
-  #bio {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+#bio {
+display: flex;
+justify-content: flex-start;
+align-items: center;
 }
 #img-wrapper img {
   /* border-radius: 50%; */
@@ -45,6 +45,10 @@ body {
 }
 #bio-wrapper {
   margin-left: 1rem;
+}
+#section-container{
+  padding-left: 5%;
+  padding-right: 5%;
 }
 #text-wrapper {
   line-height: 1rem;
