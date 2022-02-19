@@ -4,6 +4,7 @@
 @import url(hamhead.css);
 @import url(media.css); 
 @import url(animation.css);
+@import url(countdown.css);
 :root {
   --gray-1: #3f3f3f;
   --gray-2: #32353a;
@@ -29,9 +30,15 @@
 html,
 body {
   color: var(--white-2);
-  background-color: #0f2735;
+  /* background-color: #0f2735; */
+  background-color: black;
   font-family: "JetBrains Mono", monospace;
   line-height: 2rem;
+}
+video {
+  width: 80%;
+  padding-bottom: 2rem;
+  /* mix-blend-mode: screen; */
 }
 #bio {
 display: flex;
@@ -40,7 +47,7 @@ align-items: center;
 }
 #img-wrapper img {
   /* border-radius: 50%; */
-  max-width: 100px;
+  max-width: in;
 }
 #bio-wrapper {
   margin-left: 1rem;
