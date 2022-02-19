@@ -2,7 +2,7 @@
 - [x] About
 - [x] social media links
 - [x] Nav Menu
-- [ ] Schedule - tbd
+- [x] Schedule - tbd
 - [ ] Sponsors
 - [x] FAQ
 - [x] Registration (qualitrics) - embedded
@@ -14,7 +14,7 @@
 - [x] subscribe function (mail chimp)
 - [x] contact us
 - [x] bring-to-top button
-- [ ] loading animation
+- [x] loading animation
 
 # Hack Overflow Website
 
