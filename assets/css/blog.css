@@ -30,8 +30,8 @@
 html,
 body {
   color: var(--white-2);
-  /* background-color: #0f2735; */
-  background-color: black;
+  background-color: #0f2735;
+  /* background-color: black; */
   font-family: "JetBrains Mono", monospace;
   line-height: 2rem;
 }
