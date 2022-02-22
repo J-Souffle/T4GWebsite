@@ -37,8 +37,28 @@ body {
 }
 video {
   width: 80%;
-  padding-bottom: 2rem;
+  max-width: 1250px;
+  /* padding-bottom: 2rem; */
   /* mix-blend-mode: screen; */
+}
+#RegisterButton{
+  color: var(--white-2);
+  background: var(--gray-1);
+  padding: 10px;
+  margin:0rem 1rem 2rem 1rem;
+  border-radius: 15px;
+  border-style: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  transition: all 0.2s ease-in-out;
+}
+#RegisterButton:hover {
+  /* background-color: #555; */
+  opacity: 100%;
+  background:grey;
+  color:white;
+  /* transform: scale(1.1); */
 }
 #bio {
 display: flex;
