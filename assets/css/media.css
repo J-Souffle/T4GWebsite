@@ -11,7 +11,7 @@
 /* media query */
 @media screen and (max-width: 1050px) {
   body {
-    padding: 1.5rem;
+    /* padding: 1.5rem; */
   }
   header .site-title {
     font-size: 3rem;
