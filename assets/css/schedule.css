@@ -1,0 +1,17 @@
+.tablink{
+  background-color: #3f3f3f;
+  color: #EEEEEE;
+  font-size: 21px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+}
+.tablink:hover{
+  background-color: #EEEEEE;
+  color: #3f3f3f;
+}
+.city img{
+  width: 80%;
+}
+
