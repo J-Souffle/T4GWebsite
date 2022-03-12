@@ -4,19 +4,15 @@ a.anchor{display: block; position: relative; top: -125px; visibility: hidden;}
   color: #EEEEEE;
   font-size: 21px;
   font-weight: bold;
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 10px;
   border-radius: 15px;
   border: none;
 }
 .tablink:hover{
-  background-color: grey;
-  color: #EEEEEE;;
-}
-.tablink.w3-red{
-  background-color:  #EEEEEE;
+  background-color: #EEEEEE;
   color: #3f3f3f;
 }
 .city img{
-  width: 60%;
+  width: 80%;
 }
 
