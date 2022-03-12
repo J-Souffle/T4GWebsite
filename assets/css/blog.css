@@ -39,16 +39,26 @@ body {
   /* margin: 2rem; */
 }
 video {
-  width: 80%;
+  width: 50%;
   max-width: 1250px;
-  /* padding-bottom: 2rem; */
+  margin-top: 2rem;
   /* mix-blend-mode: screen; */
+}
+element.style{
+  padding: 4.5rem;
+}
+#register-container{
+  background-color: #0f2735 ;
+  border-radius: 15px;
+  height: 80vh;
+  padding-bottom: 3rem;
+  margin-bottom:3rem;
 }
 #RegisterButton{
   color: white;
   background: var(--gray-1);
   padding: 10px;
-  margin:0rem 1rem 2rem 1rem;
+  margin:2rem 1rem 2rem 1rem;
   /* margin: 3rem; */
   border-radius: 15px;
   border-style: none;

@@ -3,22 +3,25 @@
   {% include hamhead.html %}
   <body>
     <main>
-      <div style="padding:5rem" ></div>
+      <div style="padding:4rem" ></div>
       <!-- {% include title-animated.html %} -->
-      {% include web-animation.html%}
-      <center>
+      <section id="register-container">
+        {% include web-animation.html%}
+        <center>
         <a href="../Registration">
           <button id="RegisterButton">REGISTER NOW</button>
         </a>
-      </center>
-      {% include Welcome.html%}
+        </center>
+      
+      {% include Welcome.html %}
       {% include now.html %}
+    </section>
       <!-- {% include bio.html %} -->
       {% include about.html %}
       {% include schedule.html %}
       <script src="../assets/js/pullupButton.js"></script>
       <button onclick="topFunction()" id="scrollButton" title="Go to top">^</button>
-      <section class="articles">
+      <!-- <section class="articles">
         {% for post in site.posts %}
         <section id="section-container">
         <article class="article">
@@ -36,7 +39,7 @@
         </article>
       </section>
         {%endfor%}
-      </section>
+      </section> -->
       {% include footer.html %}
     </main>
     {% include category-modal.html%}
