@@ -1,12 +1,12 @@
 name: GMU HackOverflow
 dp: assets/icons/HOF2022.png
 description: "
-  <p>
-    Welcome to HackOverflow.
-  </p>
+  <h1>
+    Hello Hackers!
+  </h1>
   <br/>
   <p>
-    Connect with us on social media!
+    Thank you all for doing our interest form! Here is an FAQ that we put together based on the questions you guys have asked:
   </P>
 "
 # Author settings
@@ -21,7 +21,7 @@ contact:
   - title: instagram
     url: https://www.instagram.com/hackoverflowgmu/
   - title: dev
-    url: https://discord.gg/dk6VHnMfKz
+    url: https://discord.gg/rfchUHcUqP
   #- title: dev
   #  url: https://dev.to/sharadcodes
   #- title: email
