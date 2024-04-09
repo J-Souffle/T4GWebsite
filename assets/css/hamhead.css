@@ -80,7 +80,7 @@ header {
     cursor: pointer;
     display: inline-block;
     float: right;
-    padding: 35px 2rem;
+    padding: 25px 20px;
     position: relative;
     user-select: none;
 }
