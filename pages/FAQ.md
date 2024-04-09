@@ -3,6 +3,7 @@ title: FAQ
 layout: FAQ
 permalink: ../FAQ/
 ---
+
 > ### Q: Is HackOverflow only for engineering majors?
 >
 > #### A: Nope, we're open to all majors!

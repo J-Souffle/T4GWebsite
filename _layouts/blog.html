@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include hamhead.html %}
-  <body>
-    <main>
-      <div style="padding: 4rem"></div>
-      <!-- {% include title-animated.html %} -->
-      <section id="register-container">
-        {% include web-animation.html%}
-        <center>
-          <!-- <a href="../Registration"> -->
-          <!-- <button id="RegisterButton">Coming Soon</button> --!>
+    {% include hamhead.html %}
+    <body>
+        <main>
+            <div style="padding: 4rem"></div>
+            <!-- {% include title-animated.html %} -->
+            <section id="register-container">
+                {% include title-animated.html %}
+                <center>
+                    <!-- <a href="../Registration"> -->
+                    <!-- <button id="RegisterButton">Coming Soon</button> --!>
           <!-- </a> -->
-          <!-- uncomment this and related blog.css code -->
-        </center>
+                    <!-- uncomment this and related blog.css code -->
+                </center>
 
-        {% include Welcome.html %} {% include now.html %}
-      </section>
-      <!-- {% include bio.html %} -->
-      {% include about.html %} {% include schedule.html %}
-      <script src="../assets/js/pullupButton.js"></script>
-      <button onclick="topFunction()" id="scrollButton" title="Go to top">
-        ^
-      </button>
-      <!-- <section class="articles">
+                {% include Welcome.html %} {% include now.html %}
+            </section>
+
+            <section style="margin: -2rem 0">
+                {% include speedhack.html %}
+            </section>
+            <br />
+            <br />
+            <br />
+
+            <!-- {% include bio.html %} -->
+            {% include about.html %} {% include schedule.html %}
+            <script src="../assets/js/pullupButton.js"></script>
+            <button onclick="topFunction()" id="scrollButton" title="Go to top">
+                ^
+            </button>
+            <!-- <section class="articles">
         {% for post in site.posts %}
         <section id="section-container">
         <article class="article">
@@ -41,8 +49,8 @@
       </section>
         {%endfor%}
       </section> -->
-      {% include footer.html %}
-    </main>
-    {% include category-modal.html%}
-  </body>
+            {% include footer.html %}
+        </main>
+        {% include category-modal.html%}
+    </body>
 </html>

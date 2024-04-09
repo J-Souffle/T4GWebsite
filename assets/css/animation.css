@@ -1,27 +1,28 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 :root {
-  --cyan: #00ffb7;
-  --gold: #fdd035;
-  --dark-green: #226375;
-  --light-green: #17a079;
+    --cyan: #00ffb7;
+    --gold: #fdd035;
+    --dark-green: #226375;
+    --light-green: #17a079;
 }
-html, body{
-  height: 100%;
-  font-weight: 800;
+html,
+body {
+    height: 100%;
+    font-weight: 800;
 }
 
-body{
-  background: #030321;
-  font-family: Arial;
+body {
+    background: #030321;
+    font-family: Arial;
 }
 
 svg {
     display: block;
-    font: 8em 'Montserrat';
+    font: 8em "Montserrat";
     width: auto;
     /* height: 300px; */
     margin: 0 auto;
-    padding-bottom: 10%;
+    padding-bottom: 0%;
 }
 
 .text-copy {
@@ -33,31 +34,33 @@ svg {
     animation: stroke-offset 5.5s infinite linear;
 }
 
-.text-copy:nth-child(1){
-	stroke: var(--dark-green);
-	animation-delay: -1;
+.text-copy:nth-child(1) {
+    stroke: var(--dark-green);
+    animation-delay: -1;
 }
 
-.text-copy:nth-child(2){
-	stroke: var(--gold);
-	animation-delay: -2s;
+.text-copy:nth-child(2) {
+    stroke: var(--gold);
+    animation-delay: -2s;
 }
 
-.text-copy:nth-child(3){
-	stroke: var(--light-green);
-	animation-delay: -3s;
+.text-copy:nth-child(3) {
+    stroke: var(--light-green);
+    animation-delay: -3s;
 }
 
-.text-copy:nth-child(4){
-	stroke: var(--light-green);
-	animation-delay: -4s;
+.text-copy:nth-child(4) {
+    stroke: var(--light-green);
+    animation-delay: -4s;
 }
 
-.text-copy:nth-child(5){
-	stroke: var(--dark-green);
-	animation-delay: -5s;
+.text-copy:nth-child(5) {
+    stroke: var(--dark-green);
+    animation-delay: -5s;
 }
 
-@keyframes stroke-offset{
-	100% {stroke-dashoffset: -35%;}
+@keyframes stroke-offset {
+    100% {
+        stroke-dashoffset: -35%;
+    }
 }

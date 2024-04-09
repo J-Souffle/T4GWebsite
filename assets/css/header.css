@@ -1,21 +1,21 @@
 :root {
-  --gray-1: #3f3f3f;
-  --gray-2: #32353a;
-  --gray-3: #25282c;
-  --gray-4: #151618;
-  --gray-5: #151618;
-  --gray-6: #111111;
-  --white-1: #eeeeee;
-  --white-2: #a9abb3;
+    --gray-1: #3f3f3f;
+    --gray-2: #32353a;
+    --gray-3: #25282c;
+    --gray-4: #151618;
+    --gray-5: #151618;
+    --gray-6: #111111;
+    --white-1: #eeeeee;
+    --white-2: #a9abb3;
 }
 
 header {
-  padding: 2rem 0 2rem 0;
-  position: fixed;
+    padding: 2rem 0 2rem 0;
+    position: fixed;
 }
 header .site-logo {
-  /* max-width: 250px; */
-  /* margin-top: 15px;
+    /* max-width: 250px; */
+    /* margin-top: 15px;
     margin-right: 20px;
     margin-bottom: 15px;
     padding-right: 35px;
@@ -23,75 +23,75 @@ header .site-logo {
 }
 
 .header-inner {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  /* padding: 40px $base-spacing-unit; */
-  min-height: 60px;
-  max-height: 80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* padding: 40px $base-spacing-unit; */
+    min-height: 60px;
+    max-height: 80px;
 }
 
 header .img-logo {
-  height: 80px;
+    height: 80px;
 }
 
 main {
-  margin: 0 auto;
-  max-width: 100%;
-  margin-left: 5vw;
-  margin-right: 5vw;
-  /* padding: 3rem 0 4rem 0; */
+    margin: 0 auto;
+    max-width: 100%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    /* padding: 3rem 0 4rem 0; */
 }
 /* navigation menu */
 .main-nav {
-  margin-left: auto;
+    margin-left: auto;
 }
 nav .nav-list {
-  text-align: right;
-  padding-left: 40px;
-  max-width: 800px;
+    text-align: right;
+    padding-left: 40px;
+    max-width: 800px;
 }
 nav ul li {
-  /*list item */
-  display: inline-flex;
+    /*list item */
+    display: inline-flex;
 }
 nav ul li a {
-  /*individual menu item styling */
-  padding-left: 15px;
-  padding-right: 15px;
-  text-decoration: none;
-  text-align: center;
-  color: #eeeeee;
-  font-weight: bold;
-  transition: all 0.2s ease-in-out;
+    /*individual menu item styling */
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #eeeeee;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
 }
 nav ul li a:hover {
-  /*item the cursor is hovering over*/
-  transform: scale(1.1);
-  color: var(--white-2);
-  /* transition: all 0.2s ease-in-out; */
+    /*item the cursor is hovering over*/
+    transform: scale(1.1);
+    color: var(--white-2);
+    /* transition: all 0.2s ease-in-out; */
 }
 .active {
-  /*current menu page */
-  /* padding: 1rem; */
-  background: var(--white-1);
-  color: var(--gray-3);
-  border-radius: 15px;
+    /*current menu page */
+    /* padding: 1rem; */
+    background: var(--white-1);
+    color: var(--gray-3);
+    border-radius: 15px;
 }
 .active:hover {
-  /*current menu page */
-  /* padding: 1rem; */
-  background: var(--white-1);
-  color: var(--gray-3);
-  border-radius: 15px;
+    /*current menu page */
+    /* padding: 1rem; */
+    background: var(--white-1);
+    color: var(--gray-3);
+    border-radius: 15px;
 }
 header {
-  padding: 2rem 0 2rem 0;
+    padding: 2rem 0 2rem 0;
 }
 header .site-logo {
-  /* max-width: 250px; */
-  /* margin-top: 15px;
+    /* max-width: 250px; */
+    /* margin-top: 15px;
   margin-right: 20px;
   margin-bottom: 15px;
   padding-right: 35px;
@@ -99,15 +99,15 @@ header .site-logo {
 }
 
 .header-inner {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  /* padding: 40px $base-spacing-unit; */
-  min-height: 60px;
-  max-height: 80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* padding: 40px $base-spacing-unit; */
+    min-height: 60px;
+    max-height: 80px;
 }
 
 header .img-logo {
-  height: 80px;
+    height: 55px;
 }

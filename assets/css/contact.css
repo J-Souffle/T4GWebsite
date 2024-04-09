@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,300;0,400;0,800;1,100;1,300;1,400;1,800&display=swap");
 @import url(footer.css);
-@import url(header.css); 
-@import url(media.css); 
+@import url(header.css);
+@import url(hamhead.css);
+@import url(media.css);
 :root {
     --gray-1: #3f3f3f;
     --gray-2: #32353a;
@@ -207,14 +208,17 @@ body {
     }
 }
 
-input[type=text]{
+input[type="text"] {
     background-color: var(--white-1);
 }
-textarea[id=subject], [id=message]{
+textarea[id="subject"],
+[id="message"] {
     background-color: var(--white-1);
 }
 
-input[type=form-text], select, textarea {
+input[type="form-text"],
+select,
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -226,8 +230,7 @@ input[type=form-text], select, textarea {
     resize: vertical;
 }
 
-
-button[type=submit] {
+button[type="submit"] {
     background-color: #aaa;
     color: white;
     padding: 1rem 2rem;
@@ -238,7 +241,7 @@ button[type=submit] {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-button[type=submit]:hover {
+button[type="submit"]:hover {
     background-color: #777;
     /* transform: scale(1.1); */
 }
@@ -268,10 +271,10 @@ button[type=submit]:hover {
     font-size: 30px;
     opacity: 0.5;
     transition: all 0.2s ease-in-out;
-  }
-  
-  #scrollButton:hover {
+}
+
+#scrollButton:hover {
     /* background-color: #555; */
     opacity: 100%;
     transform: scale(1.2);
-  }
+}
