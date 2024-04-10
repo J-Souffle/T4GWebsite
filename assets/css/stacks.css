@@ -93,4 +93,8 @@
     .stacks-3 {
         flex-direction: column;
     }
+
+    .stack-wrapper {
+        margin: 20px 0;
+    }
 }

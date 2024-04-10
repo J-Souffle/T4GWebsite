@@ -51,9 +51,9 @@ header {
     text-decoration: none;
     border-radius: 5px;
     transition: all 0.2s ease-in-out;
+    margin: 10px 0;
 }
 
-.header li a:hover,
 .header .menu-btn:hover {
     background-color: var(--gray-1);
 }
@@ -148,7 +148,7 @@ header {
     }
     .header li a {
         padding: 10px 30px;
-        margin: 0 5px;
+        margin: 0px 5px;
     }
     .header .menu {
         clear: none;
