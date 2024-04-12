@@ -1,4 +1,5 @@
-<header>
+<header class="site-header"> <!-- Add the "site-header" class here -->
+  <link rel="stylesheet" href="/assets/css/header.css">
   <div class="header-inner">
     <!-- site logo -->
     <a class="site-logo" href="{{site.baseurl}}/">
@@ -8,8 +9,7 @@
       <ul class="nav-list">
         <!-- nav items -->
         {% for item in site.data.menu %}
-          <li><a class="{% if page.url == item.link %} active{% endif %}
-            "href="{{item.link}}">{{item.title}}</a></li>
+          <li><a class="{% if page.url == item.link %} active{% endif %}" href="{{item.link}}">{{item.title}}</a></li>
         {% endfor %}
       </ul>
     </nav>

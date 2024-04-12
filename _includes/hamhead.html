@@ -44,3 +44,14 @@
         {% endfor %}
     </ul>
 </header>
+
+<div class="overlay" id="overlay"></div>
+
+<script>
+    const menuIcon = document.querySelector('.menu-icon');
+    const overlay = document.getElementById('overlay');
+
+    menuIcon.addEventListener('click', function() {
+        overlay.classList.toggle('active');
+    });
+</script>
