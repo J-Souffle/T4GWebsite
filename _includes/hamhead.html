@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/contact.css" />
     {% else %}
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/blog.css" />
-    {%endif%}
+    {% endif %}
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/common.css" />
     <script src="{{site.baseurl}}/assets/js/categories.js"></script>
     {% if page.layout == "post" %}
@@ -33,7 +33,8 @@
                 >{{item.title}}</a
             >
         </li>
-        {% endfor %} {% for item in site.data.menu %}
+        {% endfor %}
+        {% for item in site.data.menu %}
         <li>
             <a
                 class="{% if page.url == item.link %} active {% else %} inactive {% endif %}"
@@ -50,8 +51,37 @@
 <script>
     const menuIcon = document.querySelector('.menu-icon');
     const overlay = document.getElementById('overlay');
+    
 
     menuIcon.addEventListener('click', function() {
         overlay.classList.toggle('active');
+        const menu = document.querySelector('.menu');
+        if (overlay.classList.contains('active')) {
+            menu.style.display = 'block';
+        } else {
+            menu.style.display = 'none';
+        }
+    });
+
+    let windowWidth = window.innerWidth; 
+
+    window.addEventListener('resize', function() {
+        const menu = document.querySelector('.menu');
+        if (window.innerWidth >= 870) {
+            menu.style.display = 'block';
+            if (overlay.classList.contains('active') && windowWidth < 870) {
+                overlay.classList.remove('active');
+                const menuBtn = document.getElementById('menu-btn');
+                menuBtn.checked = false;
+            }
+            windowWidth = window.innerWidth; 
+        } else {
+            overlay.classList.remove('active');
+            menu.style.display = 'none';
+            const menuBtn = document.getElementById('menu-btn');
+            menuBtn.checked = false;
+        }
     });
 </script>
+
+
