@@ -137,32 +137,19 @@ header {
     top: 0;
 }
 
-/* 48em = 768px */
-
-@media not (min-width: 870px) {
-    .overlay {
-        display: none;
-    }
-}
-
 .overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0); /* Transparent background */
+    background-color: rgba(0, 0, 0, 0); 
     display: none;
-    z-index: 2; /* Ensure overlay is above the menu */
+    z-index: 2; 
 }
 
 .overlay.active {
     display: block;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background when active */
-}
-
-
-.overlay:hover {
     background-color: rgba(0, 0, 0, 0.5); 
 }
 
@@ -170,9 +157,6 @@ header {
     .header .menu {
         max-height: none;
         display: block; 
-    }
-    .overlay {
-        display: none;
     }
     .header li {
         float: left;
@@ -193,5 +177,9 @@ header {
     .header {
         border-radius: 0;
         margin: 0;
+    }
+
+    .overlay.tabs-visible {
+        background-color: rgba(0, 0, 0, 0);
     }
 }
