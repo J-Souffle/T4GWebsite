@@ -3,6 +3,7 @@
 - [ ] Make mobile support
 - [ ] Make a search function on navbar like daggy
 - [ ] Make a toggle dark and light mode 
+- [ ] For impact, make a carosell to show achievements
 
 # Hack Overflow Website
 
