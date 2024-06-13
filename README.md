@@ -1,20 +1,8 @@
 # To-Do
-- [x] About
-- [x] social media links
-- [x] Nav Menu
-- [x] Schedule - tbd
-- [ ] Sponsors
-- [x] FAQ
-- [x] Registration (qualitrics) - embedded
-- [x] Sponsor Us + sponsor packet
-- [ ] Board committees and pictures - tbd
-- [x] Mobile formatting
-- [x] hamburger style menu for smaller screens
-- [x] staggered content on the main menu
-- [x] subscribe function (mail chimp)
-- [x] contact us
-- [x] bring-to-top button
-- [x] loading animation
+- [ ] Find Color Scheme
+- [ ] Make mobile support
+- [ ] Make a search function on navbar like daggy
+- [ ] Make a toggle dark and light mode 
 
 # Hack Overflow Website
 

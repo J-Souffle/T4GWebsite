@@ -1,7 +1,7 @@
 :root {
     --gray-1: #3f3f3f;
     --gray-2: #32353a;
-    --gray-3: #25282c;
+    --dark-green-3: #008243;
     --gray-4: #151618;
     --gray-5: #151618;
     --gray-6: #111111;
@@ -26,7 +26,7 @@ header {
     border-radius: 10px;
     margin: 0 15px;
     padding: 15px;
-    background-color: var(--gray-3);
+    background-color: var(--dark-green-3);
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
     position: fixed;
     z-index: 3;
