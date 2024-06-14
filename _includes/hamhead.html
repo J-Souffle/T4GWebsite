@@ -3,6 +3,9 @@
     {% if page.layout == "post" %}
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/post.css" />
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/syntax.css" />
+    {% elsif page.layout == "list" %}
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/list.css" />
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/syntax.css" />
     {% elsif page.layout == "contact" %}
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/contact.css" />
     {% else %}

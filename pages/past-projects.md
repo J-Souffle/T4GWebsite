@@ -1,5 +1,5 @@
 ---
 title: Past Projects
-layout: post
+layout: list
 permalink: ../past-projects/
 ---
