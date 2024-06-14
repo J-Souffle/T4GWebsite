@@ -12,8 +12,14 @@
 footer .text-class a {
     color: cyan;
     border-bottom: 1px solid cyan;
+    
   }
   
+.social-links {
+  background-color: #008243;
+  text-align: center;
+}
+
 .footer-flex-row{
   display: -webkit-box;
   display: -webkit-flex;
@@ -23,6 +29,13 @@ footer .text-class a {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+}
+
+.footer-inner {
+  width: 100%;
+  max-width: 12000px; /* Adjust this value to control the max width of the footer */
+  padding: 0 1rem;  /* Add padding to the sides */
+  box-sizing: border-box; /* Ensure padding doesn't affect the overall width */
 }
 
 .footer-flex-col{
@@ -50,6 +63,17 @@ footer .text-class a {
 footer .text-class{
   font-size: 0.75rem;
   text-align: left;
+}
+
+.footer-section {
+  background-color: #008243;
+  color: var(--white-1);
+  padding: 1rem 0;
+  width: 100vw; /* Ensures the footer takes up the entire width of the viewport */
+  margin-top: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
 }
 
 footer .footer-title{
