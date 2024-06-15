@@ -1,0 +1,66 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentors Carousel</title>
+  <!-- Slick Carousel CSS -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+  <link rel="stylesheet" href="/assets/css/mentors.css">
+
+
+</head>
+<body>
+  <section id="mentors-section">
+    <h2 class="section-title">Meet Our Mentors</h2>
+    <div class="carousel-container">
+      <div class="carousel" id="mentorCarousel">
+        <div class="mentor-card">
+          <img class="mentor-image" src="mentor1.jpg" alt="Mentor 1">
+          <div class="mentor-info">
+            <h3 class="mentor-name">John Doe</h3>
+            <p class="mentor-expertise">Software Engineer</p>
+            <p class="mentor-description">John Doe has over 10 years of experience in software development...</p>
+          </div>
+        </div>
+        <div class="mentor-card">
+          <img class="mentor-image" src="mentor2.jpg" alt="Mentor 2">
+          <div class="mentor-info">
+            <h3 class="mentor-name">Jane Smith</h3>
+            <p class="mentor-expertise">Data Scientist</p>
+            <p class="mentor-description">Jane Smith specializes in machine learning and data analytics...</p>
+          </div>
+        </div>
+        <!-- Add more mentors as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Slick Carousel JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('#mentorCarousel').slick({
+        dots: true,
+        arrows: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        prevArrow: '<button type="button" class="slick-prev">&#8592;</button>',
+        nextArrow: '<button type="button" class="slick-next">&#8594;</button>',
+        autoplay: true,
+        autoplaySpeed: 3000,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false
+            }
+          }
+        ]
+      });
+    });
+  </script>
+</body>
+</html>
