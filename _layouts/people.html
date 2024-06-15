@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include hamhead.html %}
+  <body>
+    <main>
+      <div style="padding:5rem" ></div>
+      <script src="../assets/js/pullupButton.js"></script>
+      <button onclick="topFunction()" id="scrollButton" title="Go to top">^</button>
+      <section class="article">
+        <div class="article-header">
+          <h2 class="article-title">{{page.title}}</h2>
+          <small class="date">{{page.date | date_to_string}}</small>
+        </div>
+        <div class="content">{% include mentors.html %}</div>
+      </section>
+      {% include footer.html %}
+    </main>
+    {% include category-modal.html%}
+  </body>
+</html>

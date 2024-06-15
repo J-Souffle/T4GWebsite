@@ -1,5 +1,5 @@
 ---
 title: Mentors
-layout: post
+layout: people
 permalink: ../mentors/
 ---
