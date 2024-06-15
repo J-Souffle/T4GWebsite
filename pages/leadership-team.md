@@ -1,5 +1,5 @@
 ---
 title: Leadership Team
-layout: post
+layout: team
 permalink: ../leadership-team/
 ---
