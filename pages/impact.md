@@ -1,5 +1,5 @@
 ---
 title: Achievements
-layout: post
+layout: impact
 permalink: ../impact/
 ---
