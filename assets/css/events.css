@@ -1,0 +1,76 @@
+
+  
+  /* Section title */
+  .section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  /* Events section */
+  #events-section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 0;
+  }
+  
+  /* Events list */
+  .events-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Event card */
+  .event-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 1rem); /* Adjust card width */
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Event title */
+  .event-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  /* Event date */
+  .event-date {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #666;
+    font-style: italic;
+  }
+  
+  /* Event description */
+  .event-description {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color: #666;
+  }
+  
+  /* Event link */
+  .event-link {
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: bold;
+  }
+  
+  .event-link:hover {
+    text-decoration: underline;
+  }
+  

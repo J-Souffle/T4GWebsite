@@ -5,6 +5,7 @@
 - [ ] Make a toggle dark and light mode 
 - [ ] For impact, make a carosell to show achievements
 - [ ] Update footer
+- [ ] Clean/Delete HackOverflow files
 
 # Hack Overflow Website
 

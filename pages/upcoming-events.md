@@ -1,5 +1,5 @@
 ---
 title: Upcoming Events
-layout: post
+layout: timeline
 permalink: ../upcoming-events/
 ---
