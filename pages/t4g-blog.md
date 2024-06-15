@@ -1,5 +1,5 @@
 ---
 title: Tech For Good Blog
-layout: post
+layout: blog
 permalink: ../t4g-blog/
 ---

@@ -1,57 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-    {% include hamhead.html %}
-    <body>
-        <div id="dimmed"></div>
-        <main>
-            <div style="padding: 4rem"></div>
-            <!-- {% include title-animated.html %} -->
-            <section id="register-container">
-                {% include title-animated.html %}
-                <center>
-                    <!-- <a href="../Registration"> -->
-                    <!-- <button id="RegisterButton">Coming Soon</button> --!>
-          <!-- </a> -->
-                    <!-- uncomment this and related blog.css code -->
-                </center>
-
-                {% include Welcome.html %} {% include now.html %}
-            </section>
-
-            <section style="margin: -2rem 0">
-                {% include speedhacks.html %}
-            </section>
-            <br />
-            <br />
-            <br />
-
-            <!-- {% include bio.html %} -->
-            {% include about.html %} {% include schedule.html %}
-            <script src="../assets/js/pullupButton.js"></script>
-            <button onclick="topFunction()" id="scrollButton" title="Go to top">
-                ^
-            </button>
-            <!-- <section class="articles">
-        {% for post in site.posts %}
-        <section id="section-container">
-        <article class="article">
-          <h2 class="article-title">
-            <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
-          </h2>
-          <small class="date">{{post.date | date_to_string}}</small>
+  {% include hamhead.html %}
+  <body>
+    <main>
+      <div style="padding:5rem" ></div>
+      <script src="../assets/js/pullupButton.js"></script>
+      <button onclick="topFunction()" id="scrollButton" title="Go to top">^</button>
+      <section class="article">
+        <div class="article-header">
+          <h2 class="article-title">{{page.title}}</h2>
+          <small class="date">{{page.date | date_to_string}}</small>
           <div class="categories">
-            {% for c in post.categories %}
-            <a href="#!" data-base-url="{{site.baseurl}}" class="category"
-              >{{c}}</a
-            >
+            {% for c in page.categories %}
+            <a href="#!" class="category">{{c}}</a>
             {% endfor %}
           </div>
-        </article>
+        </div>
+        <div class="content">{% include news.html %}</div>
       </section>
-        {%endfor%}
-      </section> -->
-            {% include footer.html %}
-        </main>
-        {% include category-modal.html%}
-    </body>
+      {% include footer.html %}
+    </main>
+    {% include category-modal.html%}
+  </body>
 </html>
