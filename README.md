@@ -1,17 +1,14 @@
 # To-Do
 - [ ] Find Color Scheme
 - [ ] Make mobile support
-- [ ] Make a search function on navbar like daggy
+- [ ] Make a search function on navbar
 - [ ] Make a toggle dark and light mode 
 - [ ] For impact, make a carosell to show achievements
 - [ ] Update footer
-- [ ] Clean/Delete HackOverflow files
 
-# Hack Overflow Website
+# T4G Website
 
 Jekyll based site hosted on github, domain through GoDaddy.
-
-[Live Link](https://hackoverflow.org)
 
 ## Installing Jekyll
 
@@ -23,7 +20,7 @@ follow the steps [Here](https://jekyllrb.com/docs/) according to your operating 
 1. Download or clone the repo
    `git clone or open with Github desktop'
 2. Enter the folder
-   `cd HackOverflow`
+   `cd T4GWebsite`
 3. Run
    `bundle install`
 4. Start Jekyll server
