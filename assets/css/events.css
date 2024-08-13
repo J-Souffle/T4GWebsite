@@ -20,7 +20,8 @@
   .events-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 1rem; /* Added gap between cards */
+    justify-content: left; /* Center-align cards */
   }
   
   /* Event card */
@@ -73,4 +74,7 @@
   .event-link:hover {
     text-decoration: underline;
   }
+  
+
+
   
