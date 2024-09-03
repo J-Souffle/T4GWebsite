@@ -3,6 +3,7 @@
 @import url(header.css); 
 @import url(hamhead.css);
 @import url(media.css); 
+
 :root {
   --gray-1: #3f3f3f;
   --gray-2: #32353a;
@@ -31,7 +32,7 @@ body {
   background-color: var(--gray-6);
   font-family: "JetBrains Mono", monospace;
   line-height: 2rem;
-  background-color: white;
+  background-color: #f4f4f4;;
 }
 
 body h2 {

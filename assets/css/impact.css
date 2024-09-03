@@ -31,7 +31,8 @@ body {
   background-color: var(--gray-6);
   font-family: "JetBrains Mono", monospace;
   line-height: 2rem;
-  background-color: white;
+  background-color: #f4f4f4;
+  padding-bottom: 1.5rem;
 }
 
 body h2 {
