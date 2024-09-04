@@ -155,7 +155,7 @@ header {
     background-color: rgba(0, 0, 0, 0.5); 
 }
 
-@media (min-width: 870px) {
+@media (min-width: 1250px) {
     .header .menu {
         max-height: none;
         display: block; 
