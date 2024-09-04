@@ -10,6 +10,23 @@
   --white-2: #a9abb3;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: var(--gray-6);
+}
+
+main {
+  flex: 1; /* Allow main to take up remaining space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically if needed */
+}
+
 footer .text-class a {
   color: cyan;
   border-bottom: 1px solid cyan;
