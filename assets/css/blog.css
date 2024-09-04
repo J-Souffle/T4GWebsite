@@ -28,10 +28,9 @@
 html,
 body {
   color: black;
-  background-color: var(--gray-6);
+  background-color: #f4f4f4;
   font-family: "JetBrains Mono", monospace;
   line-height: 2rem;
-  background-color: white;
 }
 
 body h2 {
