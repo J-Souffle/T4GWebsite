@@ -12,6 +12,7 @@
 header {
     padding: 2rem 0 2rem 0;
     position: fixed;
+    margin-left: 10rem;
 }
 header .site-logo {
     /* max-width: 250px; */
