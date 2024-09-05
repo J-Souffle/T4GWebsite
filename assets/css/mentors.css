@@ -17,43 +17,60 @@ main {
   /* Carousel container */
   .carousel-container {
     width: 90%;
-    max-width: 1200px;
+    max-width: 2000px;
     margin: 0 auto;
     padding: 4rem 0;
   }
 
-  /* Mentor card */
-  .mentor-card {
-    background-color: #fff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    padding: 2rem;
-    text-align: center;
-  }
+ /* Mentor card container */
+.carousel {
+  display: flex;
+  align-items: stretch; /* Ensures all cards stretch to the same height */
+}
 
-  .mentor-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: 0 auto 1rem;
-  }
+/* Mentor card */
+.mentor-card {
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  height: 100%;
+  position: relative; /* Enable positioning within the card */
+  overflow: hidden; /* Ensure no overflow issues */
+  padding-top: 10rem;
+}
 
-  .mentor-name {
-    font-size: 1.5rem;
-    color: #333;
-    margin-bottom: 0.5rem;
-  }
 
-  .mentor-expertise {
-    font-size: 1.2rem;
-    color: #666;
-    margin-bottom: 1rem;
-  }
+.mentor-image {
+  width: 150px; /* Adjust size as needed */
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute; /* Use absolute positioning to move it */
+  left: 38rem; /* Move the image to the right */
+  top: 1rem; /* Adjust if needed */
+}
 
-  .mentor-description {
-    font-size: 1rem;
-    color: #777;
-  }
+
+
+
+/* Mentor name, expertise, description */
+.mentor-name,
+.mentor-expertise,
+.mentor-description {
+  margin-bottom: 1rem;
+}
+
+/* Ensure the description text is flexible but doesn't push the card beyond a certain height */
+.mentor-description {
+  flex-grow: 1; /* Allows description to expand while keeping the card height consistent */
+  text-align: left;
+}
 
   /* Slick Carousel custom styles */
   .slick-prev, .slick-next {
@@ -78,3 +95,7 @@ main {
   .slick-prev:hover, .slick-next:hover {
     color: #666;
   }
+
+
+
+  
