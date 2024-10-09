@@ -1,5 +1,5 @@
 ---
-title: Mentors
+title: gay
 layout: people
 permalink: ../mentors/
 ---
