@@ -1,101 +1,118 @@
-main {
-  width: 100vw; /* or use width: 100%; */
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
+/* General reset for margin, padding, box-sizing */
+
+
+#mentors-section {
+  padding: 2rem;
+  text-align: center;
 }
 
 .section-title {
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
-    color: #333;
-    position: relative;
-    left: 10rem; /* Adjust this value to move it further right */
-    
-  }
-
-  /* Carousel container */
-  .carousel-container {
-    width: 90%;
-    max-width: 2000px;
-    margin: 0 auto;
-    padding: 4rem 0;
-  }
-
- /* Mentor card container */
-.carousel {
-  display: flex;
-  align-items: stretch; /* Ensures all cards stretch to the same height */
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
 }
 
-/* Mentor card */
+.carousel-container {
+  width: 100%; /* Ensure carousel spans the full width */
+  max-width: 600px; /* Limit maximum width */
+  margin: 0 auto; /* Center the carousel */
+  overflow: hidden; /* Prevents overflow that causes scrollbars */
+}
+
+/* Mentor card styling */
 .mentor-card {
   background-color: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  padding: 2rem;
   text-align: center;
+  margin: 0 10px; /* Adds horizontal margin between mentor cards */
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center content vertically */
-  align-items: center; /* Center content horizontally */
-  height: 100%;
-  position: relative; /* Enable positioning within the card */
-  overflow: hidden; /* Ensure no overflow issues */
-  padding-top: 10rem;
+  justify-content: center; /* Vertically centers content */
+  align-items: center; /* Horizontally centers content */
+  width: 100%; /* Card spans the full width */
+  overflow: hidden;
 }
 
-
+/* Image styling */
 .mentor-image {
-  width: 150px; /* Adjust size as needed */
+  width: 150px;
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  position: absolute; /* Use absolute positioning to move it */
-  left: 38rem; /* Move the image to the right */
-  top: 1rem; /* Adjust if needed */
+  margin-bottom: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* Text styling */
+.mentor-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
 
-
-
-/* Mentor name, expertise, description */
-.mentor-name,
-.mentor-expertise,
-.mentor-description {
+.mentor-expertise {
+  font-size: 1.1rem;
+  color: #777;
   margin-bottom: 1rem;
 }
 
-/* Ensure the description text is flexible but doesn't push the card beyond a certain height */
 .mentor-description {
-  flex-grow: 1; /* Allows description to expand while keeping the card height consistent */
+  font-size: 1rem;
+  color: #555;
   text-align: left;
+  max-width: 90%; /* Ensures description text doesn't overflow */
 }
 
-  /* Slick Carousel custom styles */
-  .slick-prev, .slick-next {
-    font-size: 24px;
-    line-height: 1;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 1;
-    color: #333;
-    cursor: pointer;
-  }
+/* Slick carousel arrow controls */
+.slick-prev, .slick-next {
+  font-size: 24px;
+  color: #333;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
 
-  .slick-prev {
-    left: 20px;
-  }
+.slick-prev {
+  left: 10px;
+}
 
-  .slick-next {
-    right: 20px;
-  }
+.slick-next {
+  right: 10px;
+}
 
-  .slick-prev:hover, .slick-next:hover {
-    color: #666;
-  }
+.slick-prev:hover, .slick-next:hover {
+  color: #666;
+}
 
+/* Slick carousel dots customization */
+.slick-dots li button:before {
+  color: #333;
+}
 
+.slick-dots li.slick-active button:before {
+  color: #666;
+}
 
-  
+/* Ensure all images are the same size */
+.mentor-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Add gap between mentor cards in the carousel */
+.carousel {
+  display: flex;
+  gap: 20px; /* Adds space between the mentor cards */
+  overflow: hidden; /* Prevents overflow on the carousel */
+}

@@ -25,7 +25,7 @@ follow the steps [Here](https://jekyllrb.com/docs/) according to your operating 
    `bundle install`
 4. Start Jekyll server
    `bundle exec jekyll serve`
-5. Access via
+5. Access via (https://www.t4g.club/)
    - localhost or according to your pc configurations.
 6. Make any appropriate changes as you see fit
 7. Commit and push changes (preferably a new branch) to the repository

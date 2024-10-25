@@ -12,17 +12,19 @@
 h2 {
     font-size: 1.8rem;
 }
+
 h3 {
     font-size: 1.6rem;
 }
+
 .now {
     font-size: 3rem;
 }
 
-/* media query */
+/* Media Queries */
 @media screen and (max-width: 1050px) {
     body {
-        /* padding: 1.5rem; */
+        padding: 1.5rem;
     }
     header .site-title {
         font-size: 3rem;
@@ -32,60 +34,23 @@ h3 {
     }
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 900px) {
     header .site-title {
         font-size: 3rem;
     }
     nav ul li a {
         font-size: 0.75rem;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding: 0 10px;
     }
     .articles {
         row-gap: 1.2rem;
     }
     .footer-flex-row {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding: 10px 0;
         display: block;
     }
     .footer-flex-col .text-class {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    #scrollButton {
-        visibility: hidden;
-    }
-    @media screen and (max-width: 1050px) {
-        body {
-            padding: 1.5rem;
-        }
-        header .site-title {
-            font-size: 3rem;
-        }
-    }
-}
-
-@media screen and (max-width: 870px) {
-    header .site-title {
-        font-size: 3rem;
-    }
-    nav ul li a {
-        font-size: 0.75rem;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .articles {
-        row-gap: 1.2rem;
-    }
-    .footer-flex-row {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        display: block;
-    }
-    .footer-flex-col .text-class {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding: 0 10px;
     }
     #scrollButton {
         visibility: hidden;

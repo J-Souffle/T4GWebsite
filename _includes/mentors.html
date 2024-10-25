@@ -3,17 +3,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mentors Carousel</title>
   <!-- Slick Carousel CSS -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
-  <link rel="stylesheet" href="/assets/css/mentors.css">
-
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+  <link rel="stylesheet" href="/assets//css/mentors.css">
 </head>
+
 <body>
   <section id="mentors-section">
-    <!-- <h2 class="section-title">Meet Our Mentors:</h2> -->
+    <h2 class="section-title">Meet Our Mentors</h2>
     <div class="carousel-container">
       <div class="carousel" id="mentorCarousel">
+        <!-- Mentor Cards -->
         <div class="mentor-card">
           <img class="mentor-image" src="../assets/images/Wijdane.jpeg" alt="Mentor 1">
           <div class="mentor-info">
@@ -68,7 +68,7 @@
             <p class="mentor-description">I am a rising junior at Mason. I’ve had the opportunity to be a part on a few teams at Mason, such as the Tech for Good, Student Government, the autonomous robotics research lab, Advancement in Men’s Mental Health, and the CS Club as members/officers. I started Tech for Good from an idea in summer '23 to a club with 200+ members. During my freshman year, I studied abroad at Mason Korea. Something about me is that I love traveling, especially for attending hackathons. I also like reading about self-growth and business, running, sewing, and hiking. I have a white cockatoo named Tala. In terms of CS and technology, I have a few projects that I'm working on with awesome people. I’m very interested in its interdisciplinary applications to health, education, and other aspects of life. I cook - generally meals that I can prep very fast (10 min or less is the goal!) I love meeting new people and I really hope I can provide some value to anyone that’s interested in being my mentee!</p>
           </div>
         </div>
-        <!-- Add more mentors as needed -->
+        <!-- More mentor cards -->
       </div>
     </div>
   </section>
@@ -80,10 +80,10 @@
     $(document).ready(function(){
       $('#mentorCarousel').slick({
         dots: true,
-        arrows: true,
+        arrows: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 1,
+        slidesToShow: 1, /* Ensure only one slide is shown at a time */
         slidesToScroll: 1,
         prevArrow: '<button type="button" class="slick-prev">&#8592;</button>',
         nextArrow: '<button type="button" class="slick-next">&#8594;</button>',
@@ -91,13 +91,19 @@
         autoplaySpeed: 3000,
         responsive: [
           {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1 /* Keep showing only one slide on large screens */
+            }
+          },
+          {
             breakpoint: 768,
             settings: {
-              arrows: false
+              slidesToShow: 1 /* Same for medium-sized screens */
             }
           }
         ]
       });
     });
-  </script>
-
+  </script>  
+</body>
