@@ -116,3 +116,24 @@
   gap: 20px; /* Adds space between the mentor cards */
   overflow: hidden; /* Prevents overflow on the carousel */
 }
+
+.mentor-contact {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+.mentor-contact a {
+  color: #555;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.mentor-contact a:hover {
+  color: #007bff;
+}
+
+.mentor-contact i {
+  vertical-align: middle;
+}
+
