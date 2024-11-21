@@ -82,9 +82,14 @@ body {
       flex-direction: column;
       text-align: center;
     }
+
+    .leader-bio {
+      text-align: left;
+    }
   
     .leader img {
       margin-bottom: 1rem;
+      margin-left: 2rem;
     }
   }
   
