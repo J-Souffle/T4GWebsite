@@ -5,6 +5,21 @@ main {
   padding: 0;
 }
 
+html, body {
+  height: 100%;          /* Full height of the viewport */
+  margin: 0;             /* Remove default margins */
+  padding: 0;            /* Remove default padding */
+  box-sizing: border-box; /* Include padding/borders in dimensions */
+}
+
+body {
+  background-color: #f4f4f4;
+  min-height: 100vh;     /* Ensure the body is at least the full viewport height */
+  display: flex;         /* Use flexbox for easy alignment of content */
+  flex-direction: column; /* Stack child elements vertically */
+  justify-content: space-between; /* Adjusts child positioning */
+}
+
   /* Section title */
   .section-title {
     text-align: center;
@@ -71,3 +86,49 @@ main {
     text-decoration: underline;
   }
   
+
+  /* For smaller devices (e.g., tablets and phones) */
+@media (max-width: 768px) {
+  #projects-section {
+    width: 90%; /* Slightly narrower for better fit */
+    padding: 1.5rem 0;
+  }
+
+  .projects-list {
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center; /* Center-align cards */
+  }
+
+  .project-card {
+    width: 100%; /* Full width on smaller screens */
+    margin-bottom: 1.5rem; /* Reduce margin */
+    padding: 1rem;
+  }
+
+  .project-title {
+    font-size: 1.25rem; /* Slightly smaller title */
+  }
+
+  .project-description {
+    font-size: 0.9rem; /* Adjust description size */
+  }
+
+  .section-title {
+    font-size: 1.75rem; /* Slightly smaller section title */
+  }
+}
+
+/* For very small devices (e.g., phones) */
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .project-title {
+    font-size: 1.15rem;
+  }
+
+  .project-description {
+    font-size: 0.85rem;
+  }
+}

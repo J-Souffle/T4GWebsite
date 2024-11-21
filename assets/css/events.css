@@ -5,6 +5,21 @@ main {
   padding: 0;
 }
 
+html, body {
+  height: 100%;          /* Full height of the viewport */
+  margin: 0;             /* Remove default margins */
+  padding: 0;            /* Remove default padding */
+  box-sizing: border-box; /* Include padding/borders in dimensions */
+}
+
+body {
+  background-color: #f4f4f4;
+  min-height: 100vh;     /* Ensure the body is at least the full viewport height */
+  display: flex;         /* Use flexbox for easy alignment of content */
+  flex-direction: column; /* Stack child elements vertically */
+  justify-content: space-between; /* Adjusts child positioning */
+}
+
   
   /* Section title */
   .section-title {
