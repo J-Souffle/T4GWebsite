@@ -39,6 +39,10 @@
         <img src="../assets/icons/4.png" alt class="img-logo" />
     </a>
 
+    <button id="dark-mode-toggle-mobile" class="dark-mode-button mobile-only">
+        <i class="fas fa-moon"></i>
+    </button>
+
     <input class="menu-btn" type="checkbox" id="menu-btn" />
 
     <label class="menu-icon" for="menu-btn">
@@ -62,10 +66,15 @@
             >{{item.title}}</a>
         </li>
         {% endfor %}
+        <li>
+            <button id="dark-mode-toggle" class="dark-mode-button">
+                <i class="fas fa-moon"></i> 
+            </button>
+        </li>
     </ul>
-    <button id="dark-mode-toggle" class="dark-mode-button">
-        <i class="fas fa-moon"></i> <!-- FontAwesome moon icon -->
-    </button>
+    <!-- <button id="dark-mode-toggle" class="dark-mode-button">
+        <i class="fas fa-moon"></i> 
+    </button> -->
 </header>
 
 <div class="overlay" id="overlay"></div>
@@ -107,9 +116,14 @@
     overlay.classList.add('tabs-visible');
 
     const darkModeToggle = document.getElementById('dark-mode-toggle');
-    const body = document.body;
+    const darkModeToggleMobile = document.getElementById('dark-mode-toggle-mobile');
+    const body = document.body; 
 
     darkModeToggle.addEventListener('click', () => {
         body.classList.toggle('dark-mode');
     });
+
+    darkModeToggleMobile.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+    })
 </script>
