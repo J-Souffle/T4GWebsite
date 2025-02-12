@@ -41,19 +41,17 @@
 
     <input class="menu-btn" type="checkbox" id="menu-btn" />
 
-    <label class="menu-icon" for="menu-btn"
-        ><span class="navicon"></span
-    ></label>
+    <label class="menu-icon" for="menu-btn">
+        <span class="navicon"></span>
+    </label>
 
     <ul class="menu">
-        <!-- nav items -->
         {% for item in site.data.home-menu %}
         <li>
             <a
                 class="{% if page.url == item.link %} active {% else %} inactive {% endif %}"
                 href="{{item.link}}"
-                >{{item.title}}</a
-            >
+            >{{item.title}}</a>
         </li>
         {% endfor %}
         {% for item in site.data.menu %}
@@ -61,11 +59,13 @@
             <a
                 class="{% if page.url == item.link %} active {% else %} inactive {% endif %}"
                 href="{{item.link}}"
-                >{{item.title}}</a
-            >
+            >{{item.title}}</a>
         </li>
         {% endfor %}
     </ul>
+    <button id="dark-mode-toggle" class="dark-mode-button">
+        <i class="fas fa-moon"></i> <!-- FontAwesome moon icon -->
+    </button>
 </header>
 
 <div class="overlay" id="overlay"></div>
@@ -74,7 +74,6 @@
     const menuIcon = document.querySelector('.menu-icon');
     const overlay = document.getElementById('overlay');
     
-
     menuIcon.addEventListener('click', function() {
         overlay.classList.toggle('active');
         const menu = document.querySelector('.menu');
@@ -104,7 +103,13 @@
             menuBtn.checked = false;
         }
     });
+
     overlay.classList.add('tabs-visible');
+
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
+    const body = document.body;
+
+    darkModeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+    });
 </script>
-
-

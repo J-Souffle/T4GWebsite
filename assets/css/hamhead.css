@@ -35,6 +35,70 @@ header {
     left: 0px;
 }
 
+.dark-mode {
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text */
+}
+
+/* .dark-mode a {
+    color: #bb86fc;
+} */
+
+/* Add this CSS to your stylesheet */
+.dark-mode section {
+    background-color: #000000 !important; /* Black background */
+    color: #ffffff; /* White text */
+}
+
+.dark-mode h2 {
+    color: #fff;
+}
+
+.dark-mode main {
+    background-color: #000000;
+}
+
+/* Add this CSS to your stylesheet */
+.dark-mode body {
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text */
+}
+
+.dark-mode a {
+    color: #bb86fc;
+}
+
+/* Style the dark mode button */
+.dark-mode-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: inherit; /* Inherit text color for dark mode */
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.dark-mode-button i {
+    color: #ffffff; /* White icon for dark mode */
+}
+
+/* Ensure the button is visible in light mode as well */
+header {
+    position: relative;
+}
+
+
+/* .dark-mode footer {
+    background-color: #ffffff;
+    color: black;
+} */
+
+/* .dark-mode footer a {
+    color: #000000;
+} */
+
 .header ul {
     margin: 0;
     padding: 0;
