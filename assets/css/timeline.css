@@ -42,8 +42,8 @@ body h2 {
     border-bottom: 4px solid gold; /* Gold color for the underline */
 }
 .content a {
-  color: cyan;
-  border-bottom: 1px solid cyan;
+  color: rgb(31, 43, 176);
+  border-bottom: 1px solid rgb(31, 43, 176);
 }
 .article {
   margin-bottom: 3rem;
