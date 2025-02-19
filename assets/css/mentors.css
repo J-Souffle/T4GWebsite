@@ -25,7 +25,6 @@ body {
   padding: 2rem;
   text-align: center;
 }
-
 .section-title {
   font-size: 2.5rem;
   margin-bottom: 2rem;
@@ -37,6 +36,10 @@ body {
   max-width: 600px; /* Limit maximum width */
   margin: 0 auto; /* Center the carousel */
   overflow: hidden; /* Prevents overflow that causes scrollbars */
+}
+
+.carousel {
+  overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 /* Mentor card styling */
@@ -111,6 +114,10 @@ body {
 }
 
 /* Slick carousel dots customization */
+/* .slick-dots {
+  overflow-x: hidden !important;
+} */
+
 .slick-dots li button:before {
   color: #333;
 }
@@ -118,6 +125,10 @@ body {
 .slick-dots li.slick-active button:before {
   color: #666;
 }
+
+/* .slick-list draggable {
+  overflow-x: hidden;
+} */
 
 /* Ensure all images are the same size */
 .mentor-card img {
