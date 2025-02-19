@@ -16,6 +16,15 @@ body {
     overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--dark-green-3) !important; /* Set the background color to green */
+}
+
+
 a {
     color: rgb(255, 255, 255);
 }
@@ -233,6 +242,10 @@ header {
         right: auto;
         left: 20px; 
     } */
+
+    body {
+        overflow-x: hidden; /* Prevent horizontal overflow */
+    }
 
     .mobile-only {
         display: none;
