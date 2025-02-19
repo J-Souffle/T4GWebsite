@@ -70,12 +70,13 @@ footer .text-class {
   background-color: #000000;
   color: var(--white-1);
   padding: 1rem 0;
-  width: 100vw; /* Ensures the footer takes up the entire width of the viewport */
-  margin-top: auto;
-  left: 50%;
-  transform: translateX(-50%);
-  position: absolute;
+  width: auto; /* Set the width to auto */
+  max-width: 100vw; /* Ensure the footer doesn't exceed the viewport width */
+  margin: 0 auto; /* Center the footer horizontally */
+  position: relative; /* Use relative positioning */
+  text-align: center; /* Ensure the content inside the footer remains centered */
 }
+
 
 footer .footer-title {
   text-align: center;
