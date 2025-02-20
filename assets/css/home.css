@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+@import url(footer.css); 
 
 body{
     background: #066b0a;  
@@ -13,6 +14,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%); /* Centers the content */
     text-align: center; /* Centers text horizontally */
+    padding-bottom: 5rem;
 }
 
 .context h1, .context p {
@@ -48,7 +50,6 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    padding-bottom: 1.5rem;
     overflow: hidden;
 }
 
