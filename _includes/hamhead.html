@@ -39,9 +39,9 @@
         <img src="../assets/icons/4.png" alt class="img-logo" />
     </a>
 
-    <button id="dark-mode-toggle-mobile" class="dark-mode-button mobile-only">
+    <!-- <button id="dark-mode-toggle-mobile" class="dark-mode-button mobile-only">
         <i class="fas fa-moon"></i>
-    </button>
+    </button> -->
 
     <input class="menu-btn" type="checkbox" id="menu-btn" />
 
@@ -116,14 +116,14 @@
     overlay.classList.add('tabs-visible');
 
     const darkModeToggle = document.getElementById('dark-mode-toggle');
-    const darkModeToggleMobile = document.getElementById('dark-mode-toggle-mobile');
+    // const darkModeToggleMobile = document.getElementById('dark-mode-toggle-mobile');
     const body = document.body; 
 
     darkModeToggle.addEventListener('click', () => {
         body.classList.toggle('dark-mode');
     });
 
-    darkModeToggleMobile.addEventListener('click', () => {
-        body.classList.toggle('dark-mode');
-    })
+    // darkModeToggleMobile.addEventListener('click', () => {
+    //     body.classList.toggle('dark-mode');
+    // });
 </script>

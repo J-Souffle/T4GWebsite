@@ -39,8 +39,9 @@ body{
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
     margin: 0;
     padding: 2rem; /* Adjust the padding as needed */
+    padding-bottom: 59rem;
     width: 100%;
-    height: 50rem;
+    height: 100vh;
     box-sizing: border-box;  /* Ensures padding does not affect the width */
 }
 
